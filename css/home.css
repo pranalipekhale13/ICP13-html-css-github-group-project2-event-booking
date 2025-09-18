@@ -1,0 +1,17 @@
+.top-nav {
+    background-color:#ffb3ff;
+    height:80px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px;
+}
+
+.top-nav-items {
+    text-decoration:none;
+    color:black;
+    font-size: 30px;
+    margin: 15px;
+
+}
