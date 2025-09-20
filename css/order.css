@@ -1,0 +1,258 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f7f9fc;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2575fc;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #2575fc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #6a11cb;
+    text-decoration: underline;
+}
+
+/* --- Container & Header --- */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.header h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #6a11cb; /* Primary accent color */
+}
+
+.header p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+/* --- Section Styling --- */
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fcfcfc;
+}
+
+.section h3 {
+    font-size: 1.6em;
+    color: #2575fc;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.section p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section ul li {
+    padding: 8px 0;
+    border-bottom: 1px dotted #eee;
+}
+.section ul li:last-child {
+    border-bottom: none;
+}
+.section ul li strong {
+    color: #333;
+}
+
+/* --- Table Styling (for Order/Bill details) --- */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #e0e0e0;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #eef4ff; /* Light blue header */
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.data-table tfoot td {
+    font-weight: 600;
+    background-color: #eef4ff;
+    border-top: 2px solid #2575fc;
+}
+
+.data-table .total-row td {
+    font-size: 1.1em;
+    color: #6a11cb;
+    font-weight: 700;
+}
+
+
+/* --- Form Styling (for Payment) --- */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #2575fc;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(37, 117, 252, 0.2);
+}
+
+.card-details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.card-details-grid .form-group:nth-child(3) {
+    grid-column: span 2; /* CVV takes full width on its row */
+}
+
+/* --- Buttons --- */
+.button-group {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #2575fc 0%, #6a11cb 100%);
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.btn-secondary {
+    background-color: #f0f0f0;
+    color: #555;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+}
+
+.btn-secondary:hover {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+/* --- Footer (for Bill/Invoice) --- */
+.footer-note {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+    .header h1 {
+        font-size: 2em;
+    }
+    .header p {
+        font-size: 1em;
+    }
+    .section h3 {
+        font-size: 1.4em;
+    }
+    .card-details-grid {
+        grid-template-columns: 1fr; /* Stack card details on small screens */
+    }
+    .form-actions, .button-group {
+        flex-direction: column;
+    }
+    .btn {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0; /* Remove left margin for stacked buttons */
+    }
+}
