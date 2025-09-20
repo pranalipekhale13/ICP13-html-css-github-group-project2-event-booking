@@ -35,6 +35,15 @@ body {
     border-radius: 5px;
 }
 
+
+.menu-bar{
+        background-color:white;
+    border-radius:50%;
+    height:40px;
+    width:60px;
+    display:none;
+    
+}
 .background {
     border-radius: 10px;
     display: flex;
@@ -239,3 +248,18 @@ h1 {
     margin-top: 20px;
     font-size: 14px;
 }
+
+@media screen and (max-width: 600px) {
+   .menu-bar{
+     display:block;
+
+  }
+}
+   
+@media screen and (max-width: 600px) {
+   .navbar a{
+    display:none;
+
+  }
+}
+   
