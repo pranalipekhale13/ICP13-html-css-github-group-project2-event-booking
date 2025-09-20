@@ -25,24 +25,26 @@
             <p>Please review your event booking details before proceeding to payment.</p>
             <div class="info">
              <h4> <label for="input-name">Name: </label>
-     <input type="name"id="input-name"placeholder="first name" />
-     <input type="name"id="input-name"placeholder="last name" /><br/><br/>
+     <input  class="box" type="name"id="input-name"placeholder="first name" />
+     <input  class="box" type="name"id="input-name"placeholder="last name" /><br/><br/>
      <label for="input-email">Email: </label>
-     <input type="email"id="input-email" /><br/><br/>
+     <input  class="box" type="email"id="input-email" /><br/><br/>
      <label for="input-address">Address: </label>
-     <input type="address"id="input-address" /><br/><br/>
+     <input  class="box" type="address"id="input-address" /><br/><br/>
      <label for="input-number">phone number: </label>
-     <input type="number"id="input-number" placeholder="(000)-000-0000"/><br/><br/>
-     <label for="input-message">Message:</label>
-     <input type="message" id="input message"/></h4>
-     <datalist id="events">
+     <input  class="box" type="number"id="input-number" placeholder="(000)-000-0000"/><br/><br/>
+     <div>
+      <datalist id="events">
         <option value="education event">education event</option>
         <option value="sport event">sport event</option>
         <option value="social event">social event</option>
      </datalist>
-     <input list="events" placeholder="select event"/>
-     <div class="button">
-     <input type="button" value="Payment Now"/><hr>
+     <input class="box1" list="events" placeholder="select event"/>
+     </div>
+     <label for="input-message">Message:</label>
+     <input  class="box2" type="message" id="input message"/></h4>
+      <div>
+     <input class="btn" type="button" value="Payment Now"/>
      </div>
      </div>
         </div>
