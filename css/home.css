@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+     background:  #bcd8f3; 
+     overflow-x:hidden;
 }
 
 .logo {
@@ -129,7 +131,7 @@ body {
     margin-right: 500px;
     font-size: 40px;
     color: black;
-    top:-240px;
+    top:-150px;
 }
 
 h3 {
@@ -140,14 +142,14 @@ h3 {
 }
 
 .card-container2 {
-    height:400px;
+    height:500px;
     width: auto;
     background-color:white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    top:-300px;
+    top:-150px;
 
 }
 
@@ -165,7 +167,7 @@ h1 {
     border-radius: 12px;
     color: white;
     cursor: pointer;
-    margin-top:180px;
+    margin-top:50px;
 }
 
 .card2:hover {
