@@ -130,6 +130,55 @@ h1 {
     border-radius: 0px opx 12px 12px;
 }
 
+
+
+.h2{
+    position:relative;
+    top:-270px;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+
+.card-container2{
+     height: 400px;
+    width: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:relative;
+    top:-240px;
+}
+.set-img{
+    height: 60px;
+    width: 60px;
+    border-radius:12px;
+    margin-top:30px;
+    padding: 5px;
+}
+
+.card2{
+    height:300px;
+    width: 300px;
+    text-align: center;
+    border-radius: solid 2px black;
+}
+
+.card2:hover {
+    border: 2px violet solid;
+}
+
+.efforts {
+    color: black;
+}
+
+
+
+
 .footer {
     background-color: #2c3e50;
     color: white;
