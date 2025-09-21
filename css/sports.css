@@ -44,7 +44,7 @@ body {
 }
  .container {
       display: flex;
-      gap: 40px;
+      gap: 30px;
       padding-top: 20px;
       padding-bottom: 20px;
       margin-left: 100px;
