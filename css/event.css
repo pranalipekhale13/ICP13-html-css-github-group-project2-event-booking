@@ -1,44 +1,42 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #bcd8f3;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #bcd8f3;
+    overflow-x: hidden;
 }
-
 .logo {
-  color: #f1c40f;
-  font-size: 22px;
-  font-weight: bold;
-  margin-right: auto;
-  margin-left: 20px;
+    color: #f1c40f;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 20px;
 }
-
-.nav-logo {
-  height: 55px;
-  width: 55px;
-  border-radius: 40px;
-}
+.nav-logo{
+       height: 55px;
+       width: 55px;
+       border-radius: 40px;
+    }
 
 .navbar {
-  background: #2c3e50;
-  padding: 12px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+    background: #2c3e50;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 15px;
-  margin: 5px;
-  font-weight: bold;
-  transition: 0.3s;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .navbar a:hover {
-  background: #f1c40f;
-  border-radius: 5px;
+    background: #f1c40f;
+    border-radius: 5px;
 }
 
 /* Container and Cards */
