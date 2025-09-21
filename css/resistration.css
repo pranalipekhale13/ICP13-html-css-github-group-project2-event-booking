@@ -147,6 +147,7 @@ body {
 }
 .footer-section a {
   text-decoration: none;
+  font-weight: normal;
 }
 .footer-bottom {
   text-align: center;

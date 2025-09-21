@@ -65,17 +65,19 @@ body {
       border-radius: 5px;
     }
 
-    .login-box button {
+    .login-box button,
+    .login-box a {
       width: 95%;
       padding: 10px;
       background-color: #26384b;
-      color: white;
+      color: rgb(255, 255, 255);
       border: none;
       border-radius: 5px;
       cursor: pointer;
       font-size: 16px;
+      text-decoration: none;
     }
-
+    
     .login-box button:hover {
       background-color: #395169;
     }
@@ -128,6 +130,13 @@ body {
 .footer-section ul li a:hover {
   color: #f1c40f;
   text-decoration: none;
+}
+.footer-section p {
+  color:white;
+}
+.footer-section a {
+  text-decoration: none;
+  font-weight: normal;
 }
 .footer-bottom {
   text-align: center;
