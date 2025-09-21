@@ -91,7 +91,7 @@ text h2 {
 .page-heading {
    width:fit-content;    
    text-align: center; 
-  background-color: #f1c40f;
+  background-color:#f4cf3e;
   font-size: 36px;
   margin:0px 0px 0px 420px;
   font-weight: bold;
@@ -109,7 +109,7 @@ text h2 {
 }
 
 .card {
-  background: white;
+  background:#8080ff;
   border-radius: 12px;
   width: 280px;
   height: 350px;
@@ -154,7 +154,7 @@ text h2 {
 
 
 .page-heading2 {
-  background-color: #f1c40f;
+  background-color:#f4cf3e;
   width: fit-content;
   color: black;
   text-align: center;
@@ -174,7 +174,7 @@ text h2 {
 }
 
 .card2 {
-  background: white;
+  background:#8080ff;
   border-radius: 12px;
   width: 270px;
   height: 360px;
@@ -290,7 +290,6 @@ text h2 {
     margin: 5px 0;
     padding: 8px 10px;
   }
-
 
 .navbar {
     justify-content: center;
