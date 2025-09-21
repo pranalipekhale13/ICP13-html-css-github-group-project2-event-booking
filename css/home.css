@@ -39,16 +39,6 @@ body {
     border-radius: 5px;
 }
 
-
-.menu-bar {
-    background-color: white;
-    border-radius: 50%;
-    height: 40px;
-    width: 60px;
-    display: none;
-
-}
-
 .background {
     border-radius: 10px;
     display: flex;
@@ -269,20 +259,35 @@ p{
     font-size: 14px;
 }
 
-@media screen and (min-width: 400px) and (max-width: 1024px) {
-    .menu-bar {
-        display: block;
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-    }
+  .navbar a {
+    margin: 5px 0;
+    padding: 8px 10px;
+  }
 }
+  /* Tablets */
+@media screen and (max-width: 900px) {
 
-@media screen and (min-width:400px) and (max-width: 1024px) {
-    .navbar a {
-        display: none;
+  .navbar {
+    justify-content: center;
+  }
+}/* Big Screens */
+@media screen and (min-width: 1440px) {
+  .navbar a {
+    padding: 12px 20px;
+    font-size: 18px;
+  }
 
-    }
+  .logo {
+    font-size: 28px;
+  }
 }
-
 
 @media screen and (min-width:400px) and (max-width: 1024px) {
     .background {
