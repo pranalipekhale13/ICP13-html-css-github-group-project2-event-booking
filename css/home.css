@@ -109,7 +109,7 @@ text h2 {
 .card {
   background: white;
   border-radius: 12px;
-  width: 300px;
+  width: 280px;
   height: 350px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -119,11 +119,14 @@ text h2 {
   width: 100px;
   border-radius: 12px;
   margin-left: 90px;
-  padding: 5px;
+  margin-top:25px;
+  padding:5px;
 }
 
 .card-content {
-  padding: 40px;
+  padding:20px;
+  margin-left:25px;
+
 
 }
 
@@ -135,7 +138,7 @@ text h2 {
 
 .card-content p {
   font-size: 16px;
-  color: #666;
+  color:#262626;
   line-height: 1.4;
 
 }
@@ -163,26 +166,27 @@ text h2 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding: 40px;
+  padding:40px;
 }
 
 .card2 {
   background: white;
   border-radius: 12px;
-  width: 300px;
+  width: 270px;
   height: 360px;
-  padding: 20px;
+  padding:8px;
 
 }
 
 .card2 img {
   width: 100%;
-  height: 200px;
+  height: 220px;
   object-fit: cover;
 }
 
 .card-content2 {
-  padding: 20px;
+  padding:20px;
+  
 }
 
 .card-content2 h2 {
@@ -191,9 +195,9 @@ text h2 {
   color: black;
 }
 
-.card-content2 h4 {
+.card-content2 p {
   font-size: 16px;
-  color: #666;
+  color:#262626;
   line-height: 1.4;
 }
 
