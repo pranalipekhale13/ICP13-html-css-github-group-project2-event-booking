@@ -122,6 +122,7 @@ body {
   margin: 5px 0;
 }
 
+
 .footer-section ul {
   list-style: none;
   padding: 0;
@@ -140,6 +141,13 @@ body {
 .footer-section ul li a:hover {
   color: #f1c40f;
   text-decoration: none;
+}
+.footer-section p {
+  color:white;
+}
+.footer-section a {
+  text-decoration: none;
+  font-weight: normal;
 }
 .footer-bottom {
   text-align: center;
