@@ -291,11 +291,11 @@ text h2 {
     padding: 8px 10px;
   }
 
-  /* Tablets */
+
 .navbar {
     justify-content: center;
   }
-  /* Big Screens */
+
   .navbar a {
     padding: 12px 20px;
     font-size: 18px;
