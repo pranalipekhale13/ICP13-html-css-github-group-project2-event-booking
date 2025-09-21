@@ -148,3 +148,32 @@ body {
   margin-top: 20px;
   font-size: 14px;
 }
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar a {
+    margin: 5px 0;
+    padding: 8px 10px;
+  }
+}
+  /* Tablets */
+@media screen and (max-width: 900px) {
+
+  .navbar {
+    justify-content: center;
+  }
+}/* Big Screens */
+@media screen and (min-width: 1440px) {
+  .navbar a {
+    padding: 12px 20px;
+    font-size: 18px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+}
