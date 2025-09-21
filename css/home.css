@@ -4,7 +4,6 @@ body {
     background: #bcd8f3;
     overflow-x: hidden;
 }
-
 .logo {
     color: #f1c40f;
     font-size: 22px;
@@ -12,6 +11,11 @@ body {
     margin-right: auto;
     margin-left: 20px;
 }
+.nav-logo{
+       height: 55px;
+       width: 55px;
+       border-radius: 40px;
+    }
 
 .navbar {
     background: #2c3e50;
@@ -250,7 +254,13 @@ h1 {
     color: #f1c40f;
     text-decoration: none;
 }
-
+a{
+    text-decoration:none;
+}
+p{
+   
+    color:white;
+}
 .footer-bottom {
     text-align: center;
     padding-top: 15px;
