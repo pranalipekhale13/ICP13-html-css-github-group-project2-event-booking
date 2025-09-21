@@ -95,6 +95,8 @@ text h2 {
   font-size: 36px;
   margin:0px 0px 0px 420px;
   font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .card-container {
@@ -156,6 +158,8 @@ text h2 {
   margin:0px 0px 0px 540px;
   font-size: 36px;
   font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .card-container2 {
