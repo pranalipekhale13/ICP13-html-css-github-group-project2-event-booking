@@ -90,7 +90,7 @@ body {
     top:-270px;
     font-size: 40px;
     color: black;
-    background-color: #f1c40f;
+    background-color:#ffd633;
     padding:5px;
     margin-left:450px;
     margin-right:400px ;
@@ -98,11 +98,12 @@ body {
 
 
 .card-container{
-     height: 400px;
-    width:1500px;
+     height: 350px;
+    width:1400px;
+    margin-left:40px ;
     background-color: white;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius:10px;
+    padding:10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -118,10 +119,14 @@ body {
 }
 
 .card{
-    height:300px;
+    height:280px;
     width: 300px;
     text-align: center;
     border-radius: solid 2px black;
+    margin-top:30px;
+    cursor: pointer;
+    padding:10px;
+
 }
 
 .card:hover {
@@ -133,14 +138,14 @@ body {
 }
 
 .heading2 {
-    background-color: #f1c40f;
+    background-color:#ffd633;
     position: relative;
     padding:8px;
     margin-left: 600px;
     margin-right: 500px;
     font-size: 40px;
     color: black;
-    top:-150px;
+    top:-120px;
 }
 
 h3 {
@@ -153,7 +158,9 @@ h3 {
 .card-container2 {
     height:500px;
     width: auto;
-    background-color:white;
+    background-color:none;
+    border-radius: 10px;
+    margin:20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -249,17 +256,16 @@ h1 {
     font-size: 14px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 400px) and (max-width: 1024px) {
    .menu-bar{
      display:block;
 
   }
 }
    
-@media screen and (max-width: 600px) {
+ @media screen and (min-width:400px) and (max-width: 1024px) {
    .navbar a{
     display:none;
 
   }
 }
-   
