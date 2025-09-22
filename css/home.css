@@ -1,55 +1,66 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #bcd8f3;
-    overflow-x: hidden;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #bcd8f3;
+  overflow-x: hidden;
 }
+
 .logo {
-    color: #f1c40f;
-    font-size: 22px;
-    font-weight: bold;
-    margin-right: auto;
-    margin-left: 20px;
+  color: #f1c40f;
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: 20px;
 }
-.nav-logo{
-       height: 55px;
-       width: 55px;
-       border-radius: 40px;
-    }
+
+.nav-logo {
+  height: 55px;
+  width: 55px;
+  border-radius: 40px;
+}
 
 .navbar {
-    background: #2c3e50;
-    padding: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: #2c3e50;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    font-weight: bold;
-    transition: 0.3s;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
 .navbar a:hover {
-    background: #f1c40f;
-    border-radius: 5px;
+  background: #f1c40f;
+  border-radius: 5px;
 }
+
+.menu-bar {
+  border-radius: 50%;
+  padding: 8px;
+  background-color: white;
+  display: none;
+}
+
+
 
 .image-container {
   position: relative;
   width: 100%;
   max-width: 900px;
-  height:500px;
+  height: 500px;
   margin: auto;
 }
 
 .image-container img {
   width: 100%;
-  height:100%;
+  height: 100%;
   display: block;
   border-radius: 12px;
 }
@@ -58,10 +69,10 @@ body {
   position: absolute;
   top: 40%;
   left: 50%;
-  font-size:25px;
+  font-size: 25px;
   transform: translate(-50%, -50%);
   text-align: center;
-  color:white;
+  color: white;
   padding: 20px 40px;
   border-radius: 10px;
 }
@@ -73,7 +84,7 @@ text h2 {
 
 .text button {
   padding: 10px 20px;
-  font-size:20px;
+  font-size: 20px;
   color: black;
   background-color: white;
   border: none;
@@ -89,11 +100,11 @@ text h2 {
 
 
 .page-heading {
-   width:fit-content;    
-   text-align: center; 
-  background-color:#f4cf3e;
+  width: fit-content;
+  text-align: center;
+  background-color: #f4cf3e;
   font-size: 36px;
-  margin:0px 0px 0px 420px;
+  margin: 0px 0px 0px 420px;
   font-weight: bold;
   padding: 10px;
   border-radius: 5px;
@@ -109,7 +120,7 @@ text h2 {
 }
 
 .card {
-  background:#8080ff;
+  background: #8080ff;
   border-radius: 12px;
   width: 280px;
   height: 350px;
@@ -121,13 +132,13 @@ text h2 {
   width: 100px;
   border-radius: 12px;
   margin-left: 90px;
-  margin-top:25px;
-  padding:5px;
+  margin-top: 25px;
+  padding: 5px;
 }
 
 .card-content {
-  padding:20px;
-  margin-left:25px;
+  padding: 20px;
+  margin-left: 25px;
 
 
 }
@@ -140,7 +151,7 @@ text h2 {
 
 .card-content p {
   font-size: 16px;
-  color:#262626;
+  color: #262626;
   line-height: 1.4;
 
 }
@@ -154,11 +165,11 @@ text h2 {
 
 
 .page-heading2 {
-  background-color:#f4cf3e;
+  background-color: #f4cf3e;
   width: fit-content;
   color: black;
   text-align: center;
-  margin:0px 0px 0px 540px;
+  margin: 0px 0px 0px 540px;
   font-size: 36px;
   font-weight: bold;
   padding: 10px;
@@ -170,15 +181,15 @@ text h2 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding:40px;
+  padding: 40px;
 }
 
 .card2 {
-  background:#8080ff;
+  background: #8080ff;
   border-radius: 12px;
   width: 270px;
   height: 360px;
-  padding:8px;
+  padding: 8px;
 
 }
 
@@ -189,8 +200,8 @@ text h2 {
 }
 
 .card-content2 {
-  padding:20px;
-  
+  padding: 20px;
+
 }
 
 .card-content2 h2 {
@@ -201,7 +212,7 @@ text h2 {
 
 .card-content2 p {
   font-size: 16px;
-  color:#262626;
+  color: #262626;
   line-height: 1.4;
 }
 
@@ -213,7 +224,7 @@ text h2 {
 
 
 .footer {
-  background-color: #2c3e50;  
+  background-color: #2c3e50;
   color: white;
   padding: 40px 20px 20px;
   margin-top: 20px;
@@ -233,9 +244,9 @@ text h2 {
   margin: 20px;
 }
 
-.footer-section h2, 
+.footer-section h2,
 .footer-section h3 {
-  color: #f1c40f;  
+  color: #f1c40f;
   margin-bottom: 10px;
 }
 
@@ -262,12 +273,15 @@ text h2 {
   color: #f1c40f;
   text-decoration: none;
 }
+
 .footer-section p {
-  color:white;
+  color: white;
 }
+
 .footer-section a {
   text-decoration: none;
 }
+
 .footer-bottom {
   text-align: center;
   padding-top: 15px;
@@ -276,48 +290,31 @@ text h2 {
   font-size: 14px;
 }
 
-
-
-
-
 @media screen and (max-width: 600px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   .navbar a {
-    margin: 5px 0;
-    padding: 8px 10px;
+    display: none;
   }
 
-.navbar {
-    justify-content: center;
-  }
-
-  .navbar a {
-    padding: 12px 20px;
-    font-size: 18px;
-  }
-
-  .logo {
-    font-size:28px;
+  .menu-bar {
+    display: flex;
+    background-color: white;
   }
 }
 
 @media screen and (max-width: 600px) {
   .page-heading {
-   width:fit-content;    
-   text-align: center; 
-  font-size:36px;
-  margin-left:10px;
-  
-}
+    width: fit-content;
+    text-align: center;
+    font-size: 36px;
+    margin-left: 10px;
+
+  }
+
   .page-heading2 {
-  width: fit-content;
-  text-align: center;
-  font-size:36px;
-  margin-left:20px;
-}
+    width: fit-content;
+    text-align: center;
+    font-size: 36px;
+    margin-left: 20px;
+  }
 
 }
