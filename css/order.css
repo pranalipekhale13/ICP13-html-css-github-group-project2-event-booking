@@ -65,7 +65,7 @@
 .info{
     font-size: 20px;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 40px;
     border: 1px solid #e0e0e0 ;
     border-radius: 8px;
     background-color: #fcfcfc;
@@ -91,7 +91,7 @@
 background-color: #cba1f7;
       text-decoration: none;
       padding: 10px 20px;
-      margin: 10px 10px;
+      margin: 20px ;
       font-weight: bold;
       transition:0.3s;
       cursor: pointer;
@@ -111,6 +111,7 @@ background-color: #9643ef;
    cursor:pointer;
  
 }
+
 
 .footer {
   background-color: #2c3e50;  
