@@ -32,8 +32,8 @@
     }
     .navbar a:hover {
       background: #f1c40f;
-      border-radius: 5px;
-    }
+      border-radius: 5px;
+    }
 .container{
      max-width: 800px;
     margin:40px auto;
@@ -201,6 +201,6 @@ background-color: #9643ef;
   }
 
   .logo {
-    font-size: 28px;
-  }
+    font-size: 28px;
+}
 }
