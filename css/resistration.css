@@ -43,7 +43,7 @@ body {
     }
 
     .container {
-      background: #d8e0e9;
+      background: #c8bbf5;
       padding: 30px 25px;
       border-radius: 15px;
       width: 350px;
@@ -75,6 +75,8 @@ body {
       cursor: pointer;
       margin-top: 10px;
       transition: 0.3s;
+
+
     }
 
     button:hover {
