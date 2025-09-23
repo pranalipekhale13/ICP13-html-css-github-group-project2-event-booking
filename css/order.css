@@ -34,6 +34,14 @@
       background: #f1c40f;
       border-radius: 5px;
     }
+    .navbar .nav-icon {
+  width: 22px;   
+  height: 22px;
+  margin-right: 7px; 
+  vertical-align: middle; 
+  background-color: white;
+  border-radius: 15px;
+    }
 .container{
      max-width: 800px;
     margin:40px auto;
@@ -174,7 +182,17 @@ background-color: #9643ef;
   padding-top: 15px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 14px;
+}
+.social-logo{
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.social-logo:hover{
+  box-shadow: 0 0 7px 0 white;
+  transition: 0.5s;
 }
 /* Mobile */
 @media screen and (max-width: 600px) {
