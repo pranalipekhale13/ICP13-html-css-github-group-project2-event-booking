@@ -310,7 +310,6 @@ text h2 {
   margin-top: 20px;
   font-size: 14px;
 }
-
 @media (max-width: 600px) {
       .menu {
         display: none;
