@@ -43,7 +43,7 @@
   box-shadow: 0 0 7px 0 white;
   transition: 0.5s;
 }
-/* Mobile */
+
 @media screen and (max-width: 600px) {
   .navbar {
     flex-direction: column;
@@ -55,13 +55,13 @@
     padding: 8px 10px;
   }
 }
-  /* Tablets */
+
 @media screen and (max-width: 900px) {
 
   .navbar {
     justify-content: center;
   }
-}/* Big Screens */
+}
 @media screen and (min-width: 1440px) {
   .navbar a {
     padding: 12px 20px;
