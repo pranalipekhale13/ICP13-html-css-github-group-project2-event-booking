@@ -40,7 +40,14 @@ body {
   background: #f1c40f;
   border-radius: 5px;
 }
-
+.navbar .nav-icon {
+  width: 22px;   
+  height: 22px;
+  margin-right: 7px; 
+  vertical-align: middle; 
+  background-color: white;
+  border-radius: 15px;
+}
 .menu-bar {
   border-radius: 50%;
   padding: 8px;
