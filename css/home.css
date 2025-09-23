@@ -66,8 +66,6 @@ body {
   background: #f1c40f;
   border-radius: 5px;
 }
-<<<<<<< HEAD
-=======
 .navbar .nav-icon {
   width: 22px;   
   height: 22px;
@@ -82,7 +80,6 @@ body {
   background-color: white;
   display: none;
 }
->>>>>>> 783120f1a488b8b1e005eb2ab3790544f092c839
 
 
 
@@ -327,8 +324,6 @@ text h2 {
   margin-top: 20px;
   font-size: 14px;
 }
-<<<<<<< HEAD
-
 @media (max-width: 600px) {
       .menu {
         display: none;
@@ -340,7 +335,7 @@ text h2 {
         width: 100%;
         padding: 10px 0;
       }
-=======
+    }
 .social-logo{
   height: 25px;
   width: 25px;
@@ -355,7 +350,6 @@ text h2 {
   .navbar a {
     display: none;
   }
->>>>>>> 783120f1a488b8b1e005eb2ab3790544f092c839
 
       .menu a {
         padding: 10px 20px;
