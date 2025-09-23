@@ -138,7 +138,7 @@ body {
       color: #0f0f0f;
       font-weight: bold;
     }
-      /* Buy Now button */
+    
     .buy-btn {
       display: inline-block;
       margin-top: 12px;
@@ -256,4 +256,15 @@ body {
   #menu-toggle:checked+.hamburger+.menu {
     display: flex;
   }
-}
+ .container {
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .card {
+    width: 90%; 
+  }
+} 
+ 
+

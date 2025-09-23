@@ -85,7 +85,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 900px;
+  max-width: 980px;
   height: 500px;
   margin: auto;
 }
