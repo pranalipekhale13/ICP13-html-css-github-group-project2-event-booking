@@ -34,8 +34,8 @@
     }
     .navbar a:hover {
       background: #f1c40f;
-      border-radius: 5px;
-    }
+      border-radius: 5px;
+    }
 .navbar .nav-icon {
   width: 22px;   
   height: 22px;
@@ -51,12 +51,11 @@
     padding: 20px 10px;
   background-color: #c8bbf5;
     box-shadow: 2px 8px 25px #e6e6e6 ;
-
-border-radius: 5px;
+  border-radius: 5px;
 }
 .header {
-    text-align: center;#3c8fdd
-    margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 40px; 
     padding-bottom: 20px;
     
 }
