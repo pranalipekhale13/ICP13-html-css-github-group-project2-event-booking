@@ -27,7 +27,33 @@ body {
   align-items: center;
 }
 
-.navbar a {
+ .menu{
+      display: flex;
+      gap: 20px;
+    }
+    
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+    }
+
+    
+    #menu-toggle {
+      display:none;
+    }
+
+   
+    .hamburger {
+      display:none;
+      cursor: pointer;
+    }
+
+    .hamburger img {
+      width: 30px;
+      height: 30px;
+    }
+.menu a {
   color: white;
   text-decoration: none;
   padding: 10px 20px;
@@ -36,16 +62,9 @@ body {
   transition: 0.3s;
 }
 
-.navbar a:hover {
+.menu a:hover {
   background: #f1c40f;
   border-radius: 5px;
-}
-
-.menu-bar {
-  border-radius: 50%;
-  padding: 8px;
-  background-color: white;
-  display: none;
 }
 
 
@@ -69,10 +88,12 @@ body {
   position: absolute;
   top: 40%;
   left: 50%;
-  font-size: 25px;
+  font-size:30px;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white;
+      color: #fff;
+
+  
   padding: 20px 40px;
   border-radius: 10px;
 }
@@ -290,31 +311,74 @@ text h2 {
   font-size: 14px;
 }
 
-@media screen and (max-width: 600px) {
-  .navbar a {
-    display: none;
-  }
+@media (max-width: 600px) {
+      .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+      }
 
-  .menu-bar {
-    display: flex;
-    background-color: white;
-  }
+      .menu a {
+        padding: 10px 20px;
+        display: block;
+        position:relative;
+        margin-right:-520px;
+      }
+
+      .hamburger {
+        display: block;
+      }
+
+      #menu-toggle:checked + .hamburger + .menu {
+        display: flex;
+      }
+    }
+@media screen and (max-width: 600px) {
+   .image-container {
+  position: relative;
+  width: 100%;
+  top: 350px;
+
+}
+ .card-container {
+  padding: 10px;
+  position:relative;
+  top:300px;
+}
+.card-container2 {
+  position:relative;
+  top:340px;
+  padding: 40px;
 }
 
-@media screen and (max-width: 600px) {
   .page-heading {
     width: fit-content;
     text-align: center;
     font-size: 36px;
-    margin-left: 10px;
+    margin-left:10px;
+    position:relative;
+    top:290px;
+    right:-0px;
 
   }
 
   .page-heading2 {
     width: fit-content;
     text-align: center;
+    position:relative;
     font-size: 36px;
-    margin-left: 20px;
+    margin-left: 30px;
+    top:260px;
   }
+  footer {
+    position:relative;
+  top:320px;
+}
+
 
 }
