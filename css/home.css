@@ -296,7 +296,16 @@ text h2 {
   margin-top: 20px;
   font-size: 14px;
 }
-
+.social-logo{
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.social-logo:hover{
+  box-shadow: 0 0 7px 0 white;
+  transition: 0.5s;
+}
 @media screen and (max-width: 600px) {
   .navbar a {
     display: none;

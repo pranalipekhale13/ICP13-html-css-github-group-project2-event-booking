@@ -122,7 +122,16 @@ body {
     .buy-btn:hover {
       background: #413d3d;
     }
-    
+    .social-logo{
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.social-logo:hover{
+  box-shadow: 0 0 7px 0 white;
+  transition: 0.5s;
+}
    
 /* Mobile */
 @media screen and (max-width: 600px) {
